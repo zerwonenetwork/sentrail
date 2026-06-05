@@ -1,6 +1,6 @@
 {
   "name": "sentrail",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sentrail local interceptor — enforce agent governance policies on AI coding agent tool calls before they execute.",
   "type": "module",
   "bin": {
