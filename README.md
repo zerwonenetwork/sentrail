@@ -8,9 +8,19 @@
 [![npm downloads](https://img.shields.io/npm/dm/sentrail?color=teal)](https://www.npmjs.com/package/sentrail)
 [![License](https://img.shields.io/badge/license-UNLICENSED-gray)](https://sentrail.dev)
 
-[Website](https://sentrail.dev) · [Docs](https://sentrail.dev/docs) · [Dashboard](https://sentrail.dev/app)
+[Website](https://sentrail.dev) · [Docs](https://sentrail.dev/docs) · [Dashboard](https://sentrail.dev/projects)
 
 </div>
+
+---
+
+## Which Sentrail integration is this?
+
+This repository and the `sentrail` npm package contain the June 2026 local agent interceptor. Its local proxy workflow below is separate from the hosted security review product at [sentrail.dev](https://sentrail.dev), security for AI-built apps.
+
+To connect Codex, Claude Code, Cursor or Windsurf to a hosted Sentrail project, follow the [current MCP guide](https://sentrail.dev/docs/mcp). It uses the hosted HTTP endpoint and a project-scoped token; installing this npm package is not required. Open the [project dashboard](https://sentrail.dev/projects) to manage your projects, and review [security and data access](https://sentrail.dev/docs/data-access) before connecting sensitive workloads.
+
+The remaining instructions describe this package's local interceptor, not the hosted MCP setup.
 
 ---
 
@@ -182,7 +192,7 @@ Yes. Point `cloudUrl` at your own Sentrail deployment. The CLI only calls `/eval
 
 ## Links
 
-- **Dashboard:** [sentrail.dev/app](https://sentrail.dev/app)
+- **Dashboard:** [sentrail.dev/app](https://sentrail.dev/projects)
 - **Docs:** [sentrail.dev/docs](https://sentrail.dev/docs)
 - **Issues:** [github.com/zerwonenetwork/sentrail/issues](https://github.com/zerwonenetwork/sentrail/issues)
 
